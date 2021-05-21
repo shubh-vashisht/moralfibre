@@ -26,6 +26,20 @@ const size = require('./libraryArray/size');
 const partition = require('./libraryArray/partition');
 const compact = require('./libraryArray/compact');
 
+const first = require('./libraryArray2/first')
+const initial = require('./libraryArray2/intial')
+const last = require('./libraryArray2/last')
+const rest = require('./libraryArray2/rest')
+const flatten = require('./libraryArray2/flatten')
+const without = require('./libraryArray2/without')
+const union = require('./libraryArray2/union')
+const intersection = require('./libraryArray2/intersection')
+const difference = require('./libraryArray2/difference')
+
+console.log(difference([1, 2, 3, 4, 5], [5, 2, 10]));
+
+
+
 
 
 module.exports.map = map;
@@ -56,8 +70,15 @@ module.exports.size = size;
 module.exports.partition = partition;
 module.exports.compact = compact;
 
-
-
+module.exports.first = first;
+module.exports.initial = initial
+module.exports.last = last;
+module.exports.rest = rest;
+module.exports.flatten = flatten;
+module.exports.without = without;
+module.exports.union = union;
+module.exports.intersection = intersection;
+module.exports.difference = difference;
 
 
 
