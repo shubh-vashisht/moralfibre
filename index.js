@@ -36,10 +36,6 @@ const union = require('./libraryArray2/union')
 const intersection = require('./libraryArray2/intersection')
 const difference = require('./libraryArray2/difference')
 
-console.log(difference([1, 2, 3, 4, 5], [5, 2, 10]));
-
-
-
 
 
 module.exports.map = map;
