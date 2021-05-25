@@ -1,4 +1,4 @@
-# Moral Fibre! 1.1.0
+# Moral Fibre! 1.2.1
 A javascript Library for NodeJs Projects
 
 This is a library to give a backbone to your javascript and nodejs projects.
