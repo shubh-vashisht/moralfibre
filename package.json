@@ -1,6 +1,6 @@
 {
   "name": "moralfibre",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "This is a library which acts like the moralfibre of your javascript code",
   "main": "index.js",
   "scripts": {
